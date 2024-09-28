@@ -1,0 +1,32 @@
+.row{
+    display: grid;
+    grid-template-columns: 40% 20% 15% 18% 15% ;
+}
+.absolute{
+    position:absolute;
+    top:230px;
+    Right:575px;
+    color:black ;
+    font-size: 20px ;
+}
+.absolute-2{
+    position:absolute;
+    top:240px;
+    Right:475px;
+    color: red;
+    font-size: 60px ;
+}
+.row1{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+}
+.row1 div {
+    padding : 5px;
+}
+.row1 img{
+    width: 100%;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 60% 40% ;
+}
